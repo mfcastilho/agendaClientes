@@ -69,7 +69,7 @@ printf("LISTA DE CONTATOS\n");
 
 for(i=0; i<contador; i++){
 
-printf("Código: %d\n", i);
+printf("C%cdigo: %d\n", 162, i);
 
 printf("nome: %s", pessoa[i].nome);
 
@@ -90,7 +90,7 @@ break;
 
 default:
 
-printf("Opção Inválida");
+printf("Op%cao Inv%clida",135,160);
 }
 
 }while(escolha != 0);
